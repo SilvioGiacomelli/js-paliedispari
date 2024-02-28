@@ -11,8 +11,8 @@ Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
 ===
 Possibile flusso
-1. Chiedere all'utente di inserire una parola
-2. Effettuare un controllo sulla parola
+1. Chiedere all'utente di inserire una parola con un prompt scritta in minuscolo
+2. Effettuare un controllo sulla parola se è palindroma
 3. Chiedere all'utente di scegliere tra pari o dispari
 4. Chiedere all'utente di scegliere un nuero compreso tra 1 e 5
 5. Fare la costante del con un generatore di numero casuale un n umero tra 1 e 5
