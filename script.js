@@ -7,11 +7,24 @@
 let parolaUser = prompt("Per favore inserisci una parola palindroma scritta in minuscolo.")
 
 // Funzione per verificare se è palindroma alla stringa
+
+
 function parolaPalindroma(stringa) {
-  // Divide ribalta e unisce
-  return stringa === stringa.split('').reverse().join('');
+  //Divido la parola
+  for (let i = 0; i < stringa.length / 2; i++) {
+    //Controllo il contenuto se sbagliato
+    if (stringa[i] !== stringa[stringa.length - 1 - i]) {
+      
+      return false;
+    }
+  }
+  
+  return true;
 }
 
+
+
+//
 if (parolaUser !== null && parolaUser === parolaUser.toLowerCase()) {
   if (parolaPalindroma(parolaUser)) {
     alert("La parola è palindroma");
@@ -20,8 +33,6 @@ if (parolaUser !== null && parolaUser === parolaUser.toLowerCase()) {
   }
 } else if (parolaUser !== null) {
   alert ("Inserisci una parola scritta in minuscolo");
-}  else if (parolaUser = (!isNaN)) {
-  alert ("Hai inserito un numero");
 }
 
 /////////////////////////////////////////
